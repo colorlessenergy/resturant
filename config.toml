@@ -1,0 +1,19 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "simple blog"
+theme = "simple"
+
+[[menu.main]]
+  name = "post"
+  weight = -70
+  url = "/post"
+
+[[menu.main]]
+  name = "food"
+  weight = -70
+  url = "/food"
+
+[[menu.main]]
+  name = "about"
+  weight = -70
+  url = "/about"
