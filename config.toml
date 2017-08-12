@@ -17,3 +17,8 @@ theme = "simple"
   name = "about"
   weight = -70
   url = "/about"
+
+[[menu.main]]
+  name = "drinks"
+  weight = -60
+  url = "/drinks"
