@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "simple blog"
 theme = "simple"
+publishDir = "docs"
 
 [[menu.main]]
   name = "post"

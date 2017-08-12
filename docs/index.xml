@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simple blog</title>
+    <link>/</link>
+    <description>Recent content on simple blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Aug 2017 13:58:39 -0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First5</title>
+      <link>/post/first5/</link>
+      <pubDate>Sat, 12 Aug 2017 13:58:39 -0700</pubDate>
+      
+      <guid>/post/first5/</guid>
+      <description>hello there</description>
+    </item>
+    
+    <item>
+      <title>First4</title>
+      <link>/post/first4/</link>
+      <pubDate>Sat, 12 Aug 2017 13:58:37 -0700</pubDate>
+      
+      <guid>/post/first4/</guid>
+      <description>hello there</description>
+    </item>
+    
+    <item>
+      <title>First3</title>
+      <link>/post/first3/</link>
+      <pubDate>Sat, 12 Aug 2017 13:58:36 -0700</pubDate>
+      
+      <guid>/post/first3/</guid>
+      <description>hello there</description>
+    </item>
+    
+    <item>
+      <title>First2</title>
+      <link>/post/first2/</link>
+      <pubDate>Sat, 12 Aug 2017 13:58:33 -0700</pubDate>
+      
+      <guid>/post/first2/</guid>
+      <description>hello there</description>
+    </item>
+    
+    <item>
+      <title>First1</title>
+      <link>/post/first1/</link>
+      <pubDate>Sat, 12 Aug 2017 13:58:30 -0700</pubDate>
+      
+      <guid>/post/first1/</guid>
+      <description>hello there</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sat, 12 Aug 2017 13:56:00 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>hi this is my blog i Talk about programming and Games</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>/post/first/</link>
+      <pubDate>Sat, 12 Aug 2017 13:51:00 -0700</pubDate>
+      
+      <guid>/post/first/</guid>
+      <description>hello there</description>
+    </item>
+    
+    <item>
+      <title>good burger</title>
+      <link>/food/burger/</link>
+      <pubDate>Wed, 17 May 2017 13:03:58 -0400</pubDate>
+      
+      <guid>/food/burger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>soda</title>
+      <link>/drinks/soda/</link>
+      <pubDate>Wed, 17 May 2017 13:03:58 -0400</pubDate>
+      
+      <guid>/drinks/soda/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
