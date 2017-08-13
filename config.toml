@@ -2,8 +2,6 @@ baseURL = "/"
 languageCode = "en-us"
 title = "MVPS"
 theme = "simple"
-publishDir = "docs"
-
 
 [[menu.main]]
   name = "food"
