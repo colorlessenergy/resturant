@@ -1,16 +1,9 @@
 {{ partial "header.html" . }}
 
-{{ if eq .Section "post" }}
-<main>
-  {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
-  {{ range $paginator.Pages }}
-    {{ partial "summary.html" . }}
-  {{ end }}
-  {{ partial "pagination.html" . }}
-</main>
-{{ else if eq .Section "food" }}
+
+{{ if eq .Section "food" }}
   <div class="{{ .Section }}">
-    <h2>{{ .Section }}</h2>
+    <h2 class="title">{{ .Section }}</h2>
     {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
       <section>
         {{ if eq "categories" $taxonomyname }}
@@ -42,7 +35,7 @@
       {{ range $key, $value := $taxonomy }}
         {{ if eq $key "drinks" }}
           {{ range $value.Pages.GroupByParam "type" }}
-            <h2><em>{{ .Key }}</em></h2>
+            <h2 class="title"><em>{{ .Key }}</em></h2>
             <hr>
             <ul>
               {{ range .Pages }}
@@ -60,5 +53,4 @@
   {{ end }}
 {{ end }}
 
-{{ partial "sidebar.html" . }}
 {{ partial "footer.html" . }}
