@@ -4,10 +4,6 @@ title = "simple blog"
 theme = "simple"
 publishDir = "docs"
 
-[[menu.main]]
-  name = "post"
-  weight = -70
-  url = "/post"
 
 [[menu.main]]
   name = "food"
