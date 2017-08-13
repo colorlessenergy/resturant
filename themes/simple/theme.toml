@@ -1,8 +1,10 @@
 name = "Simple"
 license = "MIT"
-description = "blog."
+licenselink = "https://github.com/colorlessenergy/resturant/master/LICENSE.md"
+description = "MVPS, grill and patio"
+homepage = "https://github.com/colorlessenergy/resturant/"
 min_version = 0.19
 
 [author]
-  name = ""
-  homepage = ""
+  name = "colorlessenergy"
+  homepage = "https://github.com/colorlessenergy"
