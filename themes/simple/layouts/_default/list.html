@@ -34,9 +34,10 @@
       {{ if eq "categories" $taxonomyname }}
       {{ range $key, $value := $taxonomy }}
         {{ if eq $key "drinks" }}
+        <h2 class="title"><em>{{ $key }}</em></h2>
+        <hr>
           {{ range $value.Pages.GroupByParam "type" }}
-            <h2 class="title"><em>{{ .Key }}</em></h2>
-            <hr>
+            <h2><em>{{ .Key }}</em></h2>
             <ul>
               {{ range .Pages }}
               <li>

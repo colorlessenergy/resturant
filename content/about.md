@@ -4,6 +4,6 @@ date: 2017-08-12T13:56:00-07:00
 draft: false
 ---
 
-# hi this is my blog
+## something about mvps goes here
 
-i Talk about programming and Games
+mvps is a nice place to eat
